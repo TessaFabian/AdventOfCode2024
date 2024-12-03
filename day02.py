@@ -27,4 +27,3 @@ for line in file.read().splitlines():
     if check_isSorted(mylist):
         number_safe_reports += task01(mylist)
 print("task 01: "+str(number_safe_reports))
-print(number_isSorted)
